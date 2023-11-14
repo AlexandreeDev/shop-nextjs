@@ -8,7 +8,7 @@ export const HomeContainer = styled("main", {
   width: "100%",
 });
 
-export const Product = styled("a", {
+export const Product = styled("div", {
   "&:hover": {
     footer: {
       opacity: 1,
@@ -50,6 +50,7 @@ export const Product = styled("a", {
     fontWeight: "bold",
   },
   strong: {
+    color: "$gray100",
     fontSize: "$lg",
   },
 });
